@@ -1,0 +1,14 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/stdlib (4.1.0)
+
+PATH
+  remote: /home/james/projects/stackable/puppet_modules/stackable_base
+  specs:
+    stackable_base (0.0.1)
+
+DEPENDENCIES
+  puppetlabs/stdlib (>= 0)
+  stackable_base (>= 0)
+
