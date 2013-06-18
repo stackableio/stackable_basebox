@@ -24,4 +24,12 @@ node default {
     aliases => $mailalias_hash
   }
 
+  class { 'ntp':
+    ensure     => running,
+    servers    => [ '0.ubuntu.pool.ntp.org iburst',
+                    '1.ubuntu.pool.ntp.org iburst',
+                    '2.ubuntu.pool.ntp.org iburst',
+                    '3.ubuntu.pool.ntp.org iburst', ],
+    autoupdate => true,
+  }
 }
