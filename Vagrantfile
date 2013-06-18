@@ -2,7 +2,10 @@
 # vi: set ft=ruby :
 
 Vagrant::Config.run do |config|
-  config.vm.box = "stackable-base"
+  config.vm.box      = "stackable-base"
+
+  # set hostname
+  config.vm.host_name = "base.local.stackable.io"
 
   # Update pakage cache
   config.vm.provision :shell, :inline => 'apt-get update -qqy'

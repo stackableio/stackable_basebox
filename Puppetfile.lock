@@ -1,7 +1,14 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    puppetlabs/apt (1.1.0)
+      puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/stdlib (4.1.0)
+
+PATH
+  remote: /home/james/projects/stackable/puppet_modules/postfix
+  specs:
+    postfix (0.0.1)
 
 PATH
   remote: /home/james/projects/stackable/puppet_modules/stackable_base
@@ -9,6 +16,8 @@ PATH
     stackable_base (0.0.1)
 
 DEPENDENCIES
+  postfix (>= 0)
+  puppetlabs/apt (>= 0)
   puppetlabs/stdlib (>= 0)
   stackable_base (>= 0)
 
