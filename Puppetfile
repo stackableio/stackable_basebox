@@ -9,3 +9,6 @@ mod 'stackable_base',
 
 mod 'postfix',
   :path => '/home/james/projects/stackable/puppet_modules/postfix'
+
+mod 'motd',
+  :path => '/home/james/projects/stackable/puppet_modules/motd'

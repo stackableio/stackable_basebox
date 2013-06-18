@@ -32,4 +32,6 @@ node default {
                     '3.ubuntu.pool.ntp.org iburst', ],
     autoupdate => true,
   }
+
+  include motd
 }

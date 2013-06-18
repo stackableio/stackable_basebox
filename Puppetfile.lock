@@ -8,6 +8,11 @@ FORGE
     puppetlabs/stdlib (4.1.0)
 
 PATH
+  remote: /home/james/projects/stackable/puppet_modules/motd
+  specs:
+    motd (0.0.1)
+
+PATH
   remote: /home/james/projects/stackable/puppet_modules/postfix
   specs:
     postfix (0.0.1)
@@ -18,6 +23,7 @@ PATH
     stackable_base (0.0.1)
 
 DEPENDENCIES
+  motd (>= 0)
   postfix (>= 0)
   puppetlabs/apt (>= 0)
   puppetlabs/ntp (>= 0)
