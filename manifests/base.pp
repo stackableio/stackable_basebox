@@ -21,7 +21,9 @@ node default {
   }
   
   class {'postfix':
-    aliases => $mailalias_hash
+    aliases       => $mailalias_hash,
+    relayhost     => "smtp.${::domain}",
+    configuration => 'satellite'
   }
 
   class { 'ntp':

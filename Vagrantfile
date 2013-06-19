@@ -15,6 +15,7 @@ Vagrant::Config.run do |config|
     puppet.module_path    = "modules"
     puppet.manifests_path = "manifests"
     puppet.manifest_file  = "base.pp"
+    puppet.options = [ "--pluginsync" ]
   end
 
 end
