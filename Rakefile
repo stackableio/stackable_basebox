@@ -3,9 +3,9 @@ require 'vagrant'
 
 desc 'Install modules using librarian-puppet'
 task :install_modules do
-  sh 'bundle exec librarian-puppet update' do |ok, res|
+  sh 'bundle exec librarian-puppet install' do |ok, res|
     unless ok
-      fail('failed to update puppet modules')
+      fail('failed to install puppet modules')
     end
   end
 end
