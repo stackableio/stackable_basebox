@@ -5,10 +5,13 @@ mod 'puppetlabs/apt'
 mod 'puppetlabs/ntp'
 
 mod 'stackable_base',
-  :path => '/home/james/projects/stackable/puppet_modules/stackable_base'
+  :git  => 'git@github.com:stackableio/puppet_modules.git',
+  :path => 'stackable_base/'
 
 mod 'postfix',
-  :path => '/home/james/projects/stackable/puppet_modules/postfix'
+  :git  => 'git@github.com:stackableio/puppet_modules.git',
+  :path => 'postfix'
 
 mod 'motd',
-  :path => '/home/james/projects/stackable/puppet_modules/motd'
+  :git  => 'git@github.com:stackableio/puppet_modules.git',
+  :path => 'motd'

@@ -7,18 +7,27 @@ FORGE
       puppetlabs/stdlib (>= 0.1.6)
     puppetlabs/stdlib (4.1.0)
 
-PATH
-  remote: /home/james/projects/stackable/puppet_modules/motd
+GIT
+  remote: git@github.com:stackableio/puppet_modules.git
+  path: motd
+  ref: master
+  sha: af06482517a7f7c4f177d226e629dbb2ad41628c
   specs:
     motd (0.0.1)
 
-PATH
-  remote: /home/james/projects/stackable/puppet_modules/postfix
+GIT
+  remote: git@github.com:stackableio/puppet_modules.git
+  path: postfix
+  ref: master
+  sha: af06482517a7f7c4f177d226e629dbb2ad41628c
   specs:
     postfix (0.0.1)
 
-PATH
-  remote: /home/james/projects/stackable/puppet_modules/stackable_base
+GIT
+  remote: git@github.com:stackableio/puppet_modules.git
+  path: stackable_base/
+  ref: master
+  sha: af06482517a7f7c4f177d226e629dbb2ad41628c
   specs:
     stackable_base (0.0.1)
 
