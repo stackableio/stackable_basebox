@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'bundler/setup'
 require 'vagrant'
 
 desc 'Install modules using librarian-puppet'
